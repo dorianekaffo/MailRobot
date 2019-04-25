@@ -21,7 +21,6 @@ import model.Prank;
 /**
  *
  * @author doriane kaffo
- *
  */
 public class FormelMail {
 
@@ -57,7 +56,7 @@ public class FormelMail {
         Socket mySocket = null;
 
         try {
-            trace("connection to the server.....");// trace: pour la visibilité de l'affichage sur l'IDE
+            trace("connection to the server.....");// trace: pour la visibilité de l'affichage sur netbeans
             mySocket = new Socket(serverAddress, serverport);
             BufferedReader reader = new BufferedReader(new InputStreamReader(mySocket.getInputStream(), CHARSET));
             PrintWriter writer = new PrintWriter(new OutputStreamWriter(mySocket.getOutputStream(), CHARSET));
@@ -94,7 +93,7 @@ public class FormelMail {
     /**
      *
      * When we want connect to the smtp server, It return a code that allow to
-     * know if it accept or not to begin the comminication
+     * know if it accept or not tobegin the comminication
      *
      * @param reader Inputstream for smtp server
      * @return the code SMTP and the last command response of the server
@@ -114,7 +113,7 @@ public class FormelMail {
             //to have the string part
             text.append((line.substring(4, line.length())));
         } while (EndOfResponse);
-        // parse string an return an integer 
+        // parse string an return an integer
         codeSMTP = Integer.parseInt(line.substring(0, 3));
 
         lastcommandResonseOfServer = text.toString();
@@ -163,7 +162,7 @@ public class FormelMail {
         for (int i = 0; i < pran.getVictimRecipient().size(); ++i) {
             writer.write("," + pran.getVictimRecipient().get(i).getAddress());
         }
-        
+
         writer.write("\r\n");
         writer.write("Cc: " + pran.getVictimRecipient().get(0).getAddress());
 
@@ -175,10 +174,61 @@ public class FormelMail {
         writer.write("Subject: " + mail.getSubject() + "\r\n");
         writer.write("\r\n"); // end of the email header
 
+        //  String mailContent = formelMessageSmtp(message); //message to send
+        // trace(mailContent);
+        //  writer.write(mailContent);
+
         //the end of SMTP message is  <CR/LF>.<CR/LF>
         trace(".");
         writer.write("\r\n.\r\n");
         writer.flush();
+    }
+
+    /*   *//**
+     *
+     * verification of the true formel message SMTP
+     *
+     * @param message message to convert
+     * @return converted message
+     *//*
+    protected String formelMessageSmtp(String message) {
+        StringBuilder buffer = new StringBuilder();
+        String line;
+        int start = 0;
+        int end = 0;
+        if (message != null) {
+            buffer.ensureCapacity(message.length() + 100);
+            do {
+                end = message.indexOf('\n', start);
+                if (end == -1) {
+                    line = message.substring(start);
+                } else {
+                    line = message.substring(start, end);
+                    end++;
+                }
+
+                if (line.length() > 0 && line.charAt(0) == '.') {
+                    buffer.append('.');
+                }
+
+                buffer.append(line);
+                if (end != -1) {
+                    buffer.append("\r\n");
+                }
+
+                start = end;
+            } while (end != -1);
+        }
+
+        return buffer.toString();
+    }*/
+
+
+
+
+
+    public void debugMode(boolean debug) {
+        this.debug = debug;
     }
 
     /**
