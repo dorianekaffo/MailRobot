@@ -6,7 +6,6 @@ import java.util.List;
 /**
  *
  * @author dorianekaffo
- *
  */
 public class Group {
 

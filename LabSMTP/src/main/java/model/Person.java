@@ -3,7 +3,6 @@ package model;
 /**
  *
  * @author dorianekaffo
- *
  */
 public class Person {
 

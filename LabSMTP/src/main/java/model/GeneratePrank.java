@@ -9,7 +9,6 @@ import java.util.List;
 /**
  *
  * @author doriane kaffo
- *
  */
 public class GeneratePrank {
 

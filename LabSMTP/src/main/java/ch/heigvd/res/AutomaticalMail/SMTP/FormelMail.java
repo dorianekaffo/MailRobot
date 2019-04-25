@@ -21,6 +21,7 @@ import model.Prank;
 /**
  *
  * @author doriane kaffo
+ *
  */
 public class FormelMail {
 
