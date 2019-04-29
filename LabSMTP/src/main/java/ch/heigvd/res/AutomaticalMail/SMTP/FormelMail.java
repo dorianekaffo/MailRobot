@@ -40,8 +40,9 @@ public class FormelMail {
 
     public void sendPrank(String serverName, int port, Prank myPrank)
             throws SmtpException, UnknownHostException, IOException {
-        System.out.println(serverName + port);
+        System.out.println(serverName + " " + port);
         serverAddress = InetAddress.getByName(serverName);
+        System.out.println(serverAddress.getHostName() + " " + port);
         this.pran = myPrank;
         serverport = port;
         mail = this.pran.getMessage();
@@ -57,11 +58,14 @@ public class FormelMail {
 
         try {
             trace("connection to the server.....");// trace: pour la visibilité de l'affichage sur netbeans
+
             mySocket = new Socket(serverAddress, serverport);
+
             BufferedReader reader = new BufferedReader(new InputStreamReader(mySocket.getInputStream(), CHARSET));
             PrintWriter writer = new PrintWriter(new OutputStreamWriter(mySocket.getOutputStream(), CHARSET));
 
             int replyCode = getResponse(reader);
+            System.out.println(serverAddress.getHostName());
 
             if (replyCode / 100 != POSITIVE_RESPONSE) { // to check if the response server ok isn't 2
                 throw new SmtpException(CONNECT, replyCode, lastcommandResonseOfServer);
@@ -105,9 +109,12 @@ public class FormelMail {
         String line;
         StringBuilder text = new StringBuilder();
 
+
         do {
             line = reader.readLine();
+            System.out.println("je suis dans get response");
             trace("response: " + line);
+
 
             EndOfResponse = (line.charAt(3) == '-');
             //to have the string part
