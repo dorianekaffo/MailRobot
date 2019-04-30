@@ -181,57 +181,11 @@ public class FormelMail {
         writer.write("Subject: " + mail.getSubject() + "\r\n");
         writer.write("\r\n"); // end of the email header
 
-        //  String mailContent = formelMessageSmtp(message); //message to send
-        // trace(mailContent);
-        //  writer.write(mailContent);
-
         //the end of SMTP message is  <CR/LF>.<CR/LF>
         trace(".");
         writer.write("\r\n.\r\n");
         writer.flush();
     }
-
-    /*   *//**
-     *
-     * verification of the true formel message SMTP
-     *
-     * @param message message to convert
-     * @return converted message
-     *//*
-    protected String formelMessageSmtp(String message) {
-        StringBuilder buffer = new StringBuilder();
-        String line;
-        int start = 0;
-        int end = 0;
-        if (message != null) {
-            buffer.ensureCapacity(message.length() + 100);
-            do {
-                end = message.indexOf('\n', start);
-                if (end == -1) {
-                    line = message.substring(start);
-                } else {
-                    line = message.substring(start, end);
-                    end++;
-                }
-
-                if (line.length() > 0 && line.charAt(0) == '.') {
-                    buffer.append('.');
-                }
-
-                buffer.append(line);
-                if (end != -1) {
-                    buffer.append("\r\n");
-                }
-
-                start = end;
-            } while (end != -1);
-        }
-
-        return buffer.toString();
-    }*/
-
-
-
 
 
     public void debugMode(boolean debug) {

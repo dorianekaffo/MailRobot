@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df0ff8e2-88e9-43ce-80b1-3b5aa19ebd40" name="Default Changelist" comment="">
+    <list default="true" id="50be2198-f455-4c66-aa39-93c9afa24249" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/src/MockMock-1.4.0.one-jar.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ch/heigvd/res/AutomaticalMail/SMTP/FormelMail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch/heigvd/res/AutomaticalMail/SMTP/FormelMail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ch/heigvd/res/AutomaticalMail/SMTP/FormelMail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ch/heigvd/res/AutomaticalMail/SMTP/FormelMail.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ch/heigvd/res/AutomaticalMail/SMTP/SmtpException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ch/heigvd/res/AutomaticalMail/SMTP/SmtpException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/victim.utf8" beforeDir="false" afterPath="$PROJECT_DIR$/victim.utf8" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,21 +17,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Configuration.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ch/heigvd/res/AutomaticalMail/SMTP/FormelMail.java">
+        <entry file="file://$PROJECT_DIR$/../../../../../heigvd-pro-c-14-GoFunMe-master/src/main/java/controllers/MultiplayerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1500">
-              <caret line="118" selection-start-line="118" selection-end-line="118" />
+            <state relative-caret-position="-72">
+              <folding>
+                <element signature="e#0#4910#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -42,17 +34,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Configuration.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/ch/heigvd/res/AutomaticalMail/SMTP/FormelMail.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="462" />
     <option name="y" value="23" />
-    <option name="width" value="1440" />
+    <option name="width" value="1148" />
     <option name="height" value="824" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -62,7 +47,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -70,14 +54,50 @@
               <item name="labSMTP" type="b2602c69:ProjectViewProjectNode" />
               <item name="LabSMTP" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="labSMTP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LabSMTP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="labSMTP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LabSMTP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="labSMTP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LabSMTP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="labSMTP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LabSMTP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SMTP" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="labSMTP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LabSMTP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="SMTP" type="462c0819:PsiDirectoryNode" />
+              <item name="FormelMail.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556404635220" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556627101514" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -116,20 +136,20 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="df0ff8e2-88e9-43ce-80b1-3b5aa19ebd40" name="Default Changelist" comment="" />
-      <created>1556393584498</created>
+      <changelist id="50be2198-f455-4c66-aa39-93c9afa24249" name="Default Changelist" comment="" />
+      <created>1556550366836</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1556393584498</updated>
+      <updated>1556550366836</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="824" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49726775" visible="true" weight="0.2532189" />
-      <window_info id="Structure" order="1" sideWeight="0.5027322" side_tool="true" visible="true" weight="0.2532189" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20100144" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -137,7 +157,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.329235" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -155,47 +175,14 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Image Layers" order="0" />
-      <window_info id="Designer" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24964234" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="3" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.329235" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Configuration.properties">
+    <entry file="file://$PROJECT_DIR$/../../../../../heigvd-pro-c-14-GoFunMe-master/src/main/java/controllers/MultiplayerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ch/heigvd/res/AutomaticalMail/SMTP/FormelMail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1500">
-          <caret line="118" selection-start-line="118" selection-end-line="118" />
+        <state relative-caret-position="-72">
+          <folding>
+            <element signature="e#0#4910#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
